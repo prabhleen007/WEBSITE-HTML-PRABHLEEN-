@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Holy Places in Punjab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#f7f9fb;--card:#ffffff;--accent:#0b6e4f;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;margin:0;background:var(--bg);color:#0f1724}
+    header{background:linear-gradient(90deg,#ffffff, #f0fbf6);padding:0;border-bottom:1px solid #e6eef0}
+    .userbar{background:#e8fff4;padding:10px 20px;font-size:16px;font-weight:600;color:#0b6e4f;}
+    .container{max-width:1100px;margin:0 auto;padding:28px 20px}
+    .brand{display:flex;gap:16px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(180deg,var(--accent),#28a37a);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    nav{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}
+    nav a{padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--accent);font-weight:600;border:1px solid transparent}
+    nav a:hover{background:#eaf7f0}
+    .hero{padding:28px 20px 10px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;padding:20px}
+    .card{background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 6px 18px rgba(12,36,40,0.06);display:flex;flex-direction:column}
+    .card img{width:100%;height:170px;object-fit:cover;display:block}
+    .card-content{padding:14px;flex:1;display:flex;flex-direction:column}
+    .card h3{margin:0 0 8px;font-size:18px}
+    .card p{margin:0 0 12px;color:var(--muted);flex:1}
+    .meta{display:flex;gap:8px;align-items:center}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;background:var(--accent);color:white;font-weight:600}
+    footer{padding:18px 20px;background:#fff;border-top:1px solid #e6eef0;margin-top:30px}
+    .footer-grid{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .small{font-size:13px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="userbar">Name: Prabhleen Kaur &nbsp; | &nbsp; Registration No.: 72510501</div>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">HP</div>
+        <div>
+          <h1>Holy Places in Punjab</h1>
+          <p class="lead">A curated guide to important religious sites across Indian Punjab.</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#amritsar">Golden Temple</a>
+        <a href="#anandpur">Takht Sri Keshgarh Sahib</a>
+        <a href="#talwandi">Takht Sri Damdama Sahib</a>
+        <a href="#sultanpur">Sultanpur Lodhi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <h2 style="margin:0 0 6px">Explore holy places across Punjab</h2>
+    <p class="small" style="margin:0">Click a card to read a short description and find links for visiting information.</p>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div><strong>Holy Places in Punjab</strong></div>
+      <div class="small">Built with ❤️</div>
+    </div>
+  </footer>
+</body>
+</html>
